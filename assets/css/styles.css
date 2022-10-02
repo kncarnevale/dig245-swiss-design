@@ -1,2 +1,30 @@
 
 /* css */
+/* size sm */
+h1{
+  font-size: 300px;
+}
+h3{
+  font-size: 15px;
+}
+
+
+/* size md */
+@media (min-width: 768px){
+h1{
+  font-size: 370px;
+}
+h3{
+  font-size: 18px;
+}
+}
+
+/* size lg,xl */
+@media (min-width: 992px){
+h1{
+  font-size: 370px;
+}
+h3{
+  font-size: 18px;
+}
+}
