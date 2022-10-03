@@ -3,6 +3,7 @@
 /* size sm */
 h1{
   font-size: 300px;
+  line-height: .7;
 }
 h3{
   font-size: 15px;
@@ -15,6 +16,12 @@ h3{
   bottom: 0;
   right: 50;
 }
+.top-align-text {
+  position: absolute;
+  top: 10;
+  right: 50;
+}
+}
 
 
 
@@ -22,6 +29,7 @@ h3{
 @media (min-width: 768px){
 h1{
   font-size: 370px;
+  line-height: .7;
 }
 h3{
   font-size: 18px;
@@ -36,11 +44,18 @@ h3{
   right: 50;
 }
 }
+.top-align-text {
+  position: absolute;
+  top: 10;
+  right: 50;
+}
+}
 
 /* size lg,xl */
 @media (min-width: 992px){
 h1{
   font-size: 370px;
+  line-height: .7;
 }
 h3{
   font-size: 18px;
@@ -52,6 +67,12 @@ h3{
 .bottom-align-text {
   position: absolute;
   bottom: 0;
+  right: 50;
+}
+}
+.top-align-text {
+  position: absolute;
+  top: 10;
   right: 50;
 }
 }
