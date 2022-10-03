@@ -7,6 +7,15 @@ h1{
 h3{
   font-size: 15px;
 }
+.row {
+    position: relative;
+}
+.bottom-align-text {
+  position: absolute;
+  bottom: 0;
+  right: 50;
+}
+
 
 
 /* size md */
@@ -17,6 +26,15 @@ h1{
 h3{
   font-size: 18px;
 }
+.row {
+    position: relative;
+}
+
+.bottom-align-text {
+  position: absolute;
+  bottom: 0;
+  right: 50;
+}
 }
 
 /* size lg,xl */
@@ -26,5 +44,14 @@ h1{
 }
 h3{
   font-size: 18px;
+}
+.row {
+    position: relative;
+}
+
+.bottom-align-text {
+  position: absolute;
+  bottom: 0;
+  right: 50;
 }
 }
