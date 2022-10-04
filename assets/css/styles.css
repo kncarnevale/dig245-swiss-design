@@ -1,6 +1,7 @@
 
 /* css */
-/* size sm */
+/* size sm, xs */
+@media (min-width: 576px){
 h1{
   font-size: 300px;
   line-height: .7;
@@ -22,17 +23,18 @@ h3{
   right: 50;
 }
 }
+}
 
 
 
 /* size md */
 @media (min-width: 768px){
 h1{
-  font-size: 370px;
+  font-size: 340px;
   line-height: .7;
 }
 h3{
-  font-size: 18px;
+  font-size: 16.5px;
 }
 .row {
     position: relative;
