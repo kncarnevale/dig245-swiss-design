@@ -3,11 +3,11 @@
 /* size sm, xs */
 @media (min-width: 576px){
 h1{
-  font-size: 300px;
+  font-size: 18.75rem;
   line-height: .7;
 }
 h3{
-  font-size: 15px;
+  font-size: .9373rem;
 }
 .row {
     position: relative;
@@ -30,11 +30,11 @@ h3{
 /* size md */
 @media (min-width: 768px){
 h1{
-  font-size: 340px;
+  font-size: 21.25rem;
   line-height: .7;
 }
 h3{
-  font-size: 16.5px;
+  font-size: 1.03125rem;
 }
 .row {
     position: relative;
@@ -56,11 +56,11 @@ h3{
 /* size lg,xl */
 @media (min-width: 992px){
 h1{
-  font-size: 370px;
+  font-size: 23.125rem;
   line-height: .7;
 }
 h3{
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .row {
     position: relative;
