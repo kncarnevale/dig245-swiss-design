@@ -1,13 +1,13 @@
 
 /* css */
 /* size sm, xs */
-@media (min-width: 576px){
+
 h1{
-  font-size: 18.75rem;
+  font-size: 40vw;
   line-height: .7;
 }
 h3{
-  font-size: .9373rem;
+  font-size: 1.5vw;
 }
 .row {
     position: relative;
@@ -15,26 +15,36 @@ h3{
 .bottom-align-text {
   position: absolute;
   bottom: 0;
-  right: 50;
+  right: 0;
+  padding-right: 10px;
 }
-.top-align-text {
+.top-align-text-right {
   position: absolute;
-  top: 10;
-  right: 50;
+  top:0;
+  right:0;
+  padding-top: 40px;
+  padding-right: 10px;
+}
+.top-align-text-left {
+  position: absolute;
+  top:0;
+  left:0;
+  padding-top: 60px;
+  padding-left: 10px;
 }
 }
-}
+
 
 
 
 /* size md */
 @media (min-width: 768px){
 h1{
-  font-size: 21.25rem;
+  font-size: 90vw;
   line-height: .7;
 }
 h3{
-  font-size: 1.03125rem;
+  font-size: 25vw;
 }
 .row {
     position: relative;
@@ -43,24 +53,34 @@ h3{
 .bottom-align-text {
   position: absolute;
   bottom: 0;
-  right: 50;
+  right: 0;
+  padding-right: 10px;
 }
 }
-.top-align-text {
+.top-align-text-right {
   position: absolute;
-  top: 10;
-  right: 50;
+  top:0;
+  right:0;
+  padding-top: 60px;
+  padding-right: 10px;
+}
+.top-align-text-left {
+  position: absolute;
+  top:0;
+  left:0;
+  padding-top: 80px;
+  padding-left: 10px;
 }
 }
 
 /* size lg,xl */
 @media (min-width: 992px){
 h1{
-  font-size: 23.125rem;
+  font-size: 130vw;
   line-height: .7;
 }
 h3{
-  font-size: 1.125rem;
+  font-size: 18px;
 }
 .row {
     position: relative;
@@ -69,12 +89,22 @@ h3{
 .bottom-align-text {
   position: absolute;
   bottom: 0;
-  right: 50;
+  right: 0;
+  padding-right: 10px;
 }
 }
-.top-align-text {
+.top-align-text-right {
   position: absolute;
-  top: 10;
-  right: 50;
+  top:0;
+  right:0;
+  padding-top: 95px;
+  padding-right: 10px;
+}
+.top-align-text-left {
+  position: absolute;
+  top:0;
+  left:0;
+  padding-top: 115px;
+  padding-left: 10px;
 }
 }
